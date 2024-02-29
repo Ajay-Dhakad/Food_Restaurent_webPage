@@ -8,7 +8,7 @@ function Homepage() {
   return (
   <main className='homepage'>
     <div className="homepagecover">
-    <h1 initial={{opacity:0}} whileInView={{opacity:.9}} transition={{delay:.2}}>Elevating Tastes, Creating Memories<br /><span><motion.h1  initial={{opacity:0,scale:.7,translateX:50}} whileInView={{opacity:1,scale:1,translateX:0}} transition={{delay:.1,duration:.5}}>HeavenlyWok</motion.h1></span></h1>
+    <h1 initial={{opacity:0}} whileInView={{opacity:.9}} transition={{delay:.2}}>Elevating Tastes, Creating Memories<br /><span><motion.h1  initial={{opacity:0,translateX:50}} whileInView={{opacity:1,scale:1,translateX:0}} transition={{delay:.1,duration:.5}} viewport={{once:true}}>HeavenlyWok</motion.h1></span></h1>
     <motion.button  initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay:.3,duration:.5}} className='homebtn'>Book A Table Now !</motion.button>
 
         

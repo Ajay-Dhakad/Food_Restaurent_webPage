@@ -49,17 +49,19 @@ header ul{
   display: flex;
   align-items: center;;
   list-style: none;
-  /* gap: 10px; */
-  font-size: 25px ;
+  justify-content: center;
+  gap: 10px;
+  font-size: 22px ;
 
   
 
   }
 
   ul li{
-    padding:0 10px;
+    padding:0 5px;
     transition: .3s all;
     cursor: pointer;
+    height: fit-content;
   }
 
  ul li:hover{
@@ -215,9 +217,9 @@ align-items: center;
   object-fit: cover;
   border-radius: 5px;
    transition: .5s all;
-  &:hover{
+  /* &:hover{
     height: 100%;
-  }
+  } */
 }
 
 .imgs :nth-child(2){
